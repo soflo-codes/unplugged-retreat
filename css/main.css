@@ -97,7 +97,161 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /* --------------- Base Header - Footer Styles --------------- */
+   
+   header,
+   footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+   
+   header .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+   }
 
+   header nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row wrap;
+   }
+
+   header nav ul {
+     display: flex;
+     justify-content: space-around;
+   }
+
+   footer .content-wrapper {
+
+   }
+   
+   address .contact {
+   
+   }
+   
+   .contact h4 {
+   
+   }
+   
+   .contact p {
+   
+   }
+   
+   .social h4 {
+   
+   }
+
+   footer .social-icons {
+
+   }
+   
+   .social-icons p {
+   
+   }
+   
+   .copyright p {
+   
+   }
+
+   /* --------------------- Mobile First - Homepage -------------------- */
+
+   /* Hero Styles */
+
+   .hero {
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap; 
+
+   }
+
+   .hero h1 {
+
+   }
+
+   /* Sign-Up Form Styles */
+   
+   aside {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+   
+   aside .content-wrapper {
+
+   }
+
+   .form-description h3 {
+
+   }
+
+   .form-description p {
+
+   } 
+
+   .form h3 {
+
+   }
+
+   /* Features */
+
+   .features {
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap;
+   }
+
+   .features .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
+
+   .feature-items h3 {
+
+   }
+
+   .feature-items article {
+
+   }
+
+   .feature-item-description {
+
+   }
+
+   /* Reviews */
+
+   .reviews {
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap;
+   }
+
+   .content-wrapper h2 {
+
+   }
+
+   .reviews h3 {
+
+   }
+
+   .reviews p {
+
+   }
+
+   /* =======================================================================
+      About Page
+      ======================================================================= */
+
+   
+
+   
 /* ==========================================================================
    Helper classes
    ========================================================================== */
