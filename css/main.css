@@ -494,7 +494,7 @@
         width: 80%;
       }
 
-      .contact-content {
+      .general-information {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -521,8 +521,64 @@
 
   @media only screen and (min-width: 1200px) {
       /*Desktop styles here */
-  }
-  
+
+       /*General styles */
+       .content-wrapper {
+        max-width: 960px;
+      }
+
+      /* Header */
+      .hero h1 {
+        width: 68%;
+      }
+
+      /* Aside */
+      aside .content-wrapper {
+        justify-content: space-around;
+      }
+
+      aside .content-wrapper .form-description,
+      aside .content-wrapper .form {
+        width: 30%;
+      }
+      /* Features */
+
+      .features h2 {
+        width: 90%;
+      }
+
+      .features article {
+        flex-basis: 33.3%;
+      }
+
+      /* Reviews */
+
+      .reviews article div {
+        width: 45%;
+      } 
+      
+       /* ====================================================================
+      ======== ABOUT 
+
+      =======================================================================
+      ========== */
+
+      .mission h2, 
+      .contact-section .content-wrapper h2 {
+        width: 95%;
+      }
+
+      /* ======================================================================
+      =========== FAQ 
+
+      =========================================================================
+      =========== */
+
+      .faq h2 {
+        width: 100%;
+      }
+      
+    }
   /* ==========================================================================
      Print styles.
      Inlined to avoid the additional HTTP request:
