@@ -107,6 +107,9 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
+  font-weight: bold;
+  text-align: left;
 }
  
 ul, 
@@ -128,11 +131,13 @@ h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.87em;
+  
 }
  
 p {
   font-size: 1.12em;
   line-height: 1.285;
+  font-weight: normal;
 }
  
 img {
@@ -158,6 +163,7 @@ address {
        justify-content: center;
        align-items: center;
        flex-flow: row wrap;
+       background-color: #202322;
      }
   
      header {
@@ -191,6 +197,11 @@ address {
        justify-content: space-around;
        width: 100%;
      }
+
+     header nav ul li {
+       text-transform: uppercase;
+       font-size: 1.125em;
+     }
   
      footer {
        flex-direction: column;
@@ -223,6 +234,8 @@ address {
   
     footer .copyright {
       margin: 20px 0;
+      display: flex;
+      justify-content: center;
     }
   
      /* --------------------- Mobile First - Homepage -------------------- */
@@ -233,17 +246,47 @@ address {
        display: flex;
        justify-content: center;
        flex-flow: row wrap; 
-  
+     }
+
+     h1 {
+      font-size: 3.25em;
      }
   
-     /* Sign-Up Form Styles */
+    /* Sign-Up Form Styles */
      
      aside {
        display: flex;
        align-items: center;
        justify-content: center;
        flex-flow: row wrap;
+       background-color: #527158;
      }
+
+     aside .form {
+      margin-top: 30px;
+    }
+     
+    input[type=text] {
+      box-sizing: border-box;
+      width: 100%;
+      color: #2a423a;
+      font-style: italic;
+      padding: 1em;
+    }
+     
+    input[type=button] {
+      width: 100%;
+      padding: 20px 0;
+      margin-top: 20px;
+      background-color: #2a423a;
+      font-family: 'Poppins', Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 1.5em;
+      color: #e2e3ed;
+      border: none;
+      text-align: center;
+      text-transform: uppercase;
+    }
   
      /* Features */
   
@@ -271,6 +314,7 @@ address {
   
      .features p {
       margin: 0;
+      text-align: center;
      }
   
      /* Reviews */
@@ -279,6 +323,7 @@ address {
        display: flex;
        justify-content: center;
        flex-flow: row wrap;
+       background-color: #2a423a;
      }
   
      .reviews h2 {
@@ -298,6 +343,7 @@ address {
           justify-content: center;
           align-items: center;
           flex-flow: row wrap;
+          background-color: #527158;
         }
         
         .contact-section {
@@ -305,6 +351,7 @@ address {
           justify-content: center;
           align-items: center;
           flex-flow: row wrap;
+          background-color: #2a423a;
         }
         
         .contact-content p {
@@ -320,6 +367,7 @@ address {
           justify-content: center;
           align-items: center;
           flex-flow: row wrap;
+          background-color: #527158;
         }
         
         .faq .content-wrapper {
@@ -332,6 +380,7 @@ address {
         
         .faq h2 {
           margin-bottom: 40px;
+          line-height: 1;
         }
         
         .faq-content {
