@@ -141,11 +141,11 @@ p {
 }
  
 img {
- 
+  width: 100%;
 }
  
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -215,9 +215,21 @@ address {
        width: 55%;
        margin: 50px 0;
      }
+
+     footer .footer-content {
+       text-align: center;
+     }
   
      footer .contact {
        margin-bottom: 50px;
+     }
+
+     footer h4 {
+       font-size: 1.125em;
+     }
+
+     footer p {
+       font-size: 0.875em;
      }
   
      footer .social-icons {
@@ -236,6 +248,7 @@ address {
       margin: 20px 0;
       display: flex;
       justify-content: center;
+      font-size: 0.875em;
     }
   
      /* --------------------- Mobile First - Homepage -------------------- */
@@ -245,11 +258,14 @@ address {
      .hero {
        display: flex;
        justify-content: center;
-       flex-flow: row wrap; 
+       flex-flow: row wrap;
+       background: url(../img/hero-image.jpg) center no-repeat;
+       background-size: cover;
+
      }
 
      h1 {
-      font-size: 3.25em;
+      font-size: 2.25em;
      }
   
     /* Sign-Up Form Styles */
@@ -262,6 +278,18 @@ address {
        background-color: #527158;
      }
 
+     aside .form-description {
+       font-size: 1.125em;
+     }
+
+     aside p {
+       font-size: 1.14em;
+     }
+
+     aside h3 {
+       font-size: 1.14em;
+     }
+
      aside .form {
       margin-top: 30px;
     }
@@ -272,6 +300,7 @@ address {
       color: #2a423a;
       font-style: italic;
       padding: 1em;
+      font-size: 1.14em;
     }
      
     input[type=button] {
@@ -281,7 +310,7 @@ address {
       background-color: #2a423a;
       font-family: 'Poppins', Helvetica, Arial, sans-serif;
       font-weight: 500;
-      font-size: 1.5em;
+      font-size: 1.14em;
       color: #e2e3ed;
       border: none;
       text-align: center;
@@ -294,10 +323,13 @@ address {
        display: flex;
        justify-content: center;
        flex-flow: row wrap;
+       background: url(../img/features-background.jpg) center no-repeat;
+       background-size: cover;
      }
   
      .features h2 {
       margin-bottom: 60px;
+      font-size: 1.875em;
      }
   
      .features article {
@@ -315,6 +347,7 @@ address {
      .features p {
       margin: 0;
       text-align: center;
+      font-size: 1.14em;
      }
   
      /* Reviews */
@@ -328,11 +361,13 @@ address {
   
      .reviews h2 {
        margin-bottom: 40px;
+       font-size: 1.875em
      }
   
      .reviews h3 {
        width: 50%;
        margin: 20px 0;
+       font-size: 1.125em;
      }
   
      /* =======================================================================
@@ -507,11 +542,19 @@ address {
         justify-content: space-between;
       }
 
+      header nav ul li {
+        font-size: 1em;
+        padding: 0 35px 0 0;
+      }
+
       .header-divider{
         display: none;
       }
 
       /* Hero Area */
+
+      .hero h1 {
+        font-size: 3em;
 
       /* Aside */
       aside .content-wrapper {
@@ -521,10 +564,41 @@ address {
         flex-flow: row wrap;
       }
 
+      aside h3 {
+        font-size: 1.5em;
+      }
+
+      aside p {
+        font-size: 0.875em;
+      }
+
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
         width: 40%;
         margin: 0;
+      }
+
+      input[type=text] {
+        box-sizing: border-box;
+        width: 100%;
+        color: #2a423a;
+        font-style: italic;
+        padding: 1em;
+        font-size: 0.875em;
+      }
+       
+      input[type=button] {
+        width: 100%;
+        padding: 20px 0;
+        margin-top: 20px;
+        background-color: #2a423a;
+        font-family: 'Poppins', Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1.125em;
+        color: #e2e3ed;
+        border: none;
+        text-align: center;
+        text-transform: uppercase;
       }
 
       /* Features */ 
@@ -537,11 +611,20 @@ address {
 
       }
 
+      .features h2 {
+        font-size: 2.25em;
+      }
+
       .features .features-item-description {
         width: 50%;
       }
 
       /* Reviews */
+
+      .reviews h2 {
+        font-size: 2.25em;
+      }
+
       .reviews article {
         display: flex;
         justify-content: space-between;
@@ -549,6 +632,22 @@ address {
 
       .reviews article div {
         width: 50%;
+      }
+
+      figure {
+        width: 75%;
+      }
+
+      .reviews img {
+        width: 100%;
+      }
+
+      .reviews h3 {
+        font-size: 1.5em;
+      }
+
+      .reviews p {
+        font-size: 0.875em;
       }
 
       /* Footer */
@@ -567,8 +666,17 @@ address {
         margin-bottom: 0;
       }
 
+      footer h4 {
+        font-size: 1.5em;
+      }
+
+      footer p {
+        font-size: 0.875em;
+      }
+
       footer .copyright {
         width: 100%;
+        font-size: 0.875em;
       }
 
       /* ====================================================================
@@ -638,6 +746,10 @@ address {
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
         width: 30%;
+      }
+
+      aside h3 {
+        font-size: 1.875em;
       }
       /* Features */
 
