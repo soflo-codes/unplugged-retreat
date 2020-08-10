@@ -249,6 +249,14 @@ address {
       display: flex;
       justify-content: center;
       align-items: center;
+      background-color: #527158;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
+
+    footer .social-icons i {
+      font-size: 1.062em;
     }
   
     footer .copyright {
@@ -330,12 +338,17 @@ address {
      .features article {
       width: 63%;
       margin: 30px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
     }
     
     .features-items i {
       font-size: 3.35em;
       margin-bottom: 40px;
     }
+    
      .features .features-items {
        display: flex;
        justify-content: center;
@@ -680,6 +693,11 @@ address {
 
       footer p {
         font-size: 0.875em;
+      }
+
+      footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
       }
 
       footer .copyright {
